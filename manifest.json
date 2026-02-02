@@ -1,0 +1,11 @@
+
+{
+  "manifest_version": 3,
+  "name": "Smart Volume & 3D EQ Controller",
+  "version": "3.0",
+  "description": "Persistent volume, EQ, surround and 3D audio per tab.",
+  "permissions": ["scripting", "activeTab", "storage"],
+  "host_permissions": ["<all_urls>"],
+  "background": { "service_worker": "background.js" },
+  "action": { "default_popup": "popup.html" }
+}
